@@ -1,0 +1,8 @@
+data/*.jsonl
+data/.cache/
+__pycache__/
+results/summary.md
+results/metrics.csv
+analysis/*.png
+analysis/*.pdf
+analysis/table2_rows.tex

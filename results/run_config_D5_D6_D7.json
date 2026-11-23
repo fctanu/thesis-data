@@ -1,0 +1,23 @@
+{
+  "model": "qwen3.5:4b",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 1024
+  },
+  "max_turns": 6,
+  "think": false,
+  "conditions": {
+    "D0": "no defense",
+    "D1": "delimiters around tool output (spotlighting)",
+    "D2": "instruction-priority system prompt",
+    "D3": "task reminder after tool output (sandwich)",
+    "D4": "D1 + D2 + D3 combined",
+    "D5": "D1 + D2 (delimiters + priority rule)",
+    "D6": "D1 + D3 (delimiters + reminder)",
+    "D7": "D2 + D3 (priority rule + reminder)"
+  },
+  "seed": 2026,
+  "ollama_python": "?"
+}

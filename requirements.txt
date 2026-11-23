@@ -1,0 +1,6 @@
+ollama
+huggingface_hub
+pandas
+numpy
+statsmodels
+matplotlib
